@@ -406,8 +406,8 @@ test("AI 공급자는 Gemini를 먼저 사용하고 Groq를 예비로 둔다", (
   try {
     process.env.AI_PRIMARY_PROVIDER = "gemini";
     process.env.AI_FALLBACK_PROVIDER = "groq";
-    process.env.GEMINI_API_KEY = "";
-    process.env.GROQ_API_KEY = "";
+    process.env.GEMINI_API_KEY = "test-gemini-key";
+    process.env.GROQ_API_KEY = "test-groq-key";
     assert.deepEqual(configuredAiProviders(), ["gemini", "groq"]);
     delete process.env.GEMINI_API_KEY;
     assert.deepEqual(configuredAiProviders(), ["groq"]);
