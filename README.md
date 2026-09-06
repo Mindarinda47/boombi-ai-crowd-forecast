@@ -2,8 +2,6 @@
 
 부산 주요 권역의 시간대별 혼잡 가능성을 계산하고, 점수의 근거와 대체 장소를 함께 제공하는 1인 개발 프로젝트입니다. 실제 인원수를 단정하는 서비스가 아니라 행사·평시 수요·검색 추세·날씨·달력 조건을 조합해 이동 판단을 돕는 상대적 예보를 제공합니다.
 
-[![Verify](https://github.com/Mindarinda47/boombi-ai-crowd-forecast/actions/workflows/verify.yml/badge.svg)](https://github.com/Mindarinda47/boombi-ai-crowd-forecast/actions/workflows/verify.yml)
-
 ## 1분 안에 살펴보기
 
 | 먼저 볼 항목 | 확인할 내용 |
@@ -89,7 +87,6 @@ pnpm lint
 - Node 기본 테스트 러너 기반 **2개 파일, 39개 테스트**
 - `pnpm test`에서 프로덕션 빌드 후 예측 엔진과 서버 렌더링 결과 검증
 - 점수 경계, 행사 중첩, 날씨·검색 변환, 42개 권역 응답, 추천·시나리오, 인증과 fallback 포함
-- GitHub Actions에서 같은 명령을 자동 실행
 
 ## 한계
 
