@@ -19,7 +19,7 @@
 | 형태 | 1인 프로젝트 |
 | 개발 기간 | 핵심 구현 약 3일 |
 | 담당 | 기획, 데이터 모델, 예측 규칙, AI 연동, UI, 테스트, 배포 구조 |
-| 기술 | TypeScript, React, Next.js App Router 호환 구조, Vinext/Vite, Supabase PostgreSQL, Drizzle ORM, Cloudflare Worker |
+| 기술 | TypeScript, React, Next.js App Router 호환 구조, Vinext/Vite, Supabase PostgreSQL, Cloudflare Worker |
 | 상태 | 기능 구현 및 제출 완료 · 공개 데모는 외부 DB 연결 없이 fallback 데이터로 동작 |
 
 ## 무엇을 만들었는가

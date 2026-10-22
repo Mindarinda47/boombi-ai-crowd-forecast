@@ -123,7 +123,6 @@ export default function LicensesPage() {
           <div className="legal-license-list">
             <a href="https://github.com/vercel/next.js/blob/canary/license.md" {...externalLinkProps}><strong>Next.js</strong><span>MIT License</span></a>
             <a href="https://github.com/facebook/react/blob/main/LICENSE" {...externalLinkProps}><strong>React · React DOM</strong><span>MIT License</span></a>
-            <a href="https://github.com/drizzle-team/drizzle-orm/blob/main/LICENSE" {...externalLinkProps}><strong>Drizzle ORM</strong><span>Apache License 2.0</span></a>
             <a href="https://github.com/cloudflare/vinext/blob/main/LICENSE" {...externalLinkProps}><strong>vinext</strong><span>MIT License</span></a>
             <a href="https://github.com/vitejs/vite/blob/main/LICENSE" {...externalLinkProps}><strong>Vite</strong><span>MIT License</span></a>
             <a href="https://github.com/microsoft/TypeScript/blob/main/LICENSE.txt" {...externalLinkProps}><strong>TypeScript</strong><span>Apache License 2.0</span></a>
